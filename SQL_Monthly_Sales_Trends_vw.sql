@@ -31,4 +31,4 @@ GROUP BY
     EXTRACT(MONTH FROM o.order_date)
 ORDER BY 
     EXTRACT(YEAR FROM o.order_date), 
-    EXTRACT(MONTH FROM o.order_date);
+    EXTRACT(MONTH FROM o.order_date):
