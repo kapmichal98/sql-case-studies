@@ -1,0 +1,46 @@
+component_type_id,component_name,parent_type_id,category,standard_cost
+1,Wind Turbine,,Assembly,0
+2,Rotor Assembly,1,Assembly,0
+3,Blade,2,Part,185000
+4,Blade Root Insert,3,Part,12000
+5,Blade Tip Section,3,Part,21000
+6,Hub,2,Part,72000
+7,Pitch System,2,Module,41000
+8,Pitch Motor,7,Part,9500
+9,Pitch Bearing,7,Part,14000
+10,Nacelle Assembly,1,Assembly,0
+11,Gearbox,10,Module,210000
+12,Gearbox Bearing,11,Part,28000
+13,Gear Set,11,Part,54000
+14,Gearbox Oil Cooler,11,Part,8600
+15,Generator,10,Module,160000
+16,Generator Winding,15,Part,37000
+17,Generator Bearing,15,Part,19000
+18,Slip Ring,15,Part,7300
+19,Main Shaft,10,Part,66000
+20,Main Bearing,19,Part,31000
+21,Yaw System,10,Module,45000
+22,Yaw Motor,21,Part,6800
+23,Yaw Brake,21,Part,5400
+24,Cooling System,10,Module,23000
+25,Nacelle Cover,10,Part,15000
+26,Transformer,10,Module,52000
+27,Tower Assembly,1,Assembly,0
+28,Tower Section - Bottom,27,Part,95000
+29,Tower Section - Mid,27,Part,88000
+30,Tower Section - Top,27,Part,81000
+31,Tower Internal Ladder,27,Part,4200
+32,Foundation Anchor,27,Part,18000
+33,Control System,1,Assembly,0
+34,Converter,33,Module,58000
+35,Converter Module,34,Part,12500
+36,Controller Unit,33,Part,24000
+37,SCADA Interface,33,Part,9800
+38,Sensor Package,33,Module,9000
+39,Anemometer,38,Part,1800
+40,Wind Vane,38,Part,1200
+41,Vibration Sensor,38,Part,2600
+42,Temperature Sensor,38,Part,900
+43,Cable Harness,33,Part,6500
+44,Grid Connection Unit,33,Module,34000
+45,Surge Protection,44,Part,4700
